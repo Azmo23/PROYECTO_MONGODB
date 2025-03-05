@@ -1,0 +1,14 @@
+db.libro.insertOne({
+    "_id":"112",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "ISBN": "9780460812345",
+    "editorial": "HarperCollins",
+    "categoria": "ciencia ficción",
+    "ejemplar":[{ 
+            "_id":"122",
+            "estado":"available: 10 | borrowed: 0",
+            "prestamo_actual": "_id:456 | null",
+            "historial_prestamo": ["_id:456"]
+            }]
+})
