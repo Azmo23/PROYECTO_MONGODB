@@ -1,0 +1,9 @@
+db.user.insertOne({
+    "nombre" : "Carlos",
+    "apellido": "Garcia",
+    "contraseña": "password123",
+    "email": "carlos.garcia@example.com",
+    "direccion": "Calle 123, 456",
+    "telefono": "6543210987",
+    "fecha_nacimiento": "15-06-1990",
+})
