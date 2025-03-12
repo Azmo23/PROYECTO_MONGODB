@@ -5,9 +5,11 @@ db.libro.insertOne({
     "ISBN": "9780460812345",
     "editorial": "HarperCollins",
     "categoria": "ciencia ficción",
+    "cantidad_ejemplares": 3,
+    "ejemplares_disponibles": 3,
     "ejemplar":[{ 
             "_id":"122",
-            "estado":"available: 10 | borrowed: 0",
+            "estado":"available | borrowed",
             "prestamo_actual": "_id:456 | null",
             "historial_prestamo": ["_id:456"]
             }]
