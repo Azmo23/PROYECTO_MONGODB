@@ -7,7 +7,7 @@ db.libro.insertOne({
     "categoria": "ciencia ficción",
     "cantidad_ejemplares": 3,
     "ejemplares_disponibles": 3,
-    "ejemplar":[{ 
+    "ejemplares":[{ 
             "_id":"122",
             "estado":"available | borrowed",
             "prestamo_actual": "_id:456 | null",
